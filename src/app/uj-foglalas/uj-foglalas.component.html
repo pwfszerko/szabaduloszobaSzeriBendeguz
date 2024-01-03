@@ -1,0 +1,9 @@
+<form (ngSubmit)="submitFoglalas()">
+    <input type="text" [(ngModel)]="foglalas.nev" name="nev" required placeholder="Név">
+    <input type="text" [(ngModel)]="foglalas.cim" name="cim" required placeholder="Cím">
+    <input type="number" [(ngModel)]="foglalas.iranyitoszam" name="iranyitoszam" required placeholder="Irányítószám">
+    <input type="number" [(ngModel)]="foglalas.fo" name="fo" required min="2" max="16" placeholder="Fő">
+    <input type="date" [(ngModel)]="foglalas.datum" name="datum" required>
+    <button type="submit">Foglalás Elküldése</button>
+  </form>
+  
