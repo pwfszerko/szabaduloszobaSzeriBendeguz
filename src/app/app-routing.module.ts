@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { UjFoglalasComponent } from './uj-foglalas/uj-foglalas.component';
-// További komponensek importálása...
 
 const routes: Routes = [
   { path: 'ujfoglalas', component: UjFoglalasComponent },
